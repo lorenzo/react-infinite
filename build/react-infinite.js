@@ -393,7 +393,7 @@ var Infinite = React.createClass({
   buildHeightStyle: function buildHeightStyle(height) {
     return {
       width: '100%',
-      height: Math.ceil(height)
+      height: Math.ceil(height) || 0
     };
   },
 
